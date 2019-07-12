@@ -11,6 +11,10 @@ namespace CommonNetService.Controllers
     public class ValuesController : ControllerBase
     {
         // GET api/values
+        /// <summary>
+        /// testapi-获取值
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
@@ -18,6 +22,11 @@ namespace CommonNetService.Controllers
         }
 
         // GET api/values/5
+        /// <summary>
+        /// testapi-获取值
+        /// </summary>
+        /// <param name="id">id</param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
