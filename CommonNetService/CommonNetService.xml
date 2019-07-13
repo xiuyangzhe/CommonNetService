@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonNetService</name>
+    </assembly>
+    <members>
+        <member name="M:CommonNetService.Controllers.ValuesController.Get">
+            <summary>
+            testapi-获取值 result
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonNetService.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            testapi-获取值
+            </summary>
+            <param name="id">id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

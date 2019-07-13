@@ -12,7 +12,7 @@ namespace CommonNetService.Controllers
     {
         // GET api/values
         /// <summary>
-        /// testapi-获取值
+        /// testapi-获取值 result
         /// </summary>
         /// <returns></returns>
         [HttpGet]

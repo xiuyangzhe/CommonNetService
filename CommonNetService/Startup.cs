@@ -79,8 +79,9 @@ namespace CommonNetService
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "CommonNetService API V1");
-                c.RoutePrefix = string.Empty; //去除前缀
+                c.RoutePrefix = "apihelper"; //去除前缀
             });
+            app.UseStaticFiles();
         }
     }
 }

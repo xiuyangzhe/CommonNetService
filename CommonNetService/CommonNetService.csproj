@@ -5,13 +5,9 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>G:\MYCODES\github\netcore\CommonNetService\CommonNetService\bin\Debug\CommonNetService.xml</DocumentationFile>
-    <OutputPath>G:\MYCODES\github\netcore\CommonNetService\CommonNetService\bin\Debug\</OutputPath>
+    <DocumentationFile>E:\MyProjects\github\CommonNetService\CommonNetService\CommonNetService.xml</DocumentationFile>
+    <OutputPath></OutputPath>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
